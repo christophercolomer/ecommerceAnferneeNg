@@ -3,7 +3,9 @@ import Layout from "./components/Layout";
 const App = () => {
   return (
     <>
-      <Layout/>
+      <div className="relative min-h-screen">
+        <Layout />
+      </div>
     </>
   );
 };
